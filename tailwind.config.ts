@@ -1,0 +1,1 @@
+import type { Config } from 'tailwindcss'; const config: Config = { content: ['./app/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}'], theme: { extend: { colors: { 'nanny-primary': '#6366F1', 'nanny-secondary': '#EC4899', 'nanny-dark': '#1E293B', 'nanny-light': '#F8FAFC' } } }, plugins: [require('@tailwindcss/forms')] }; export default config;
